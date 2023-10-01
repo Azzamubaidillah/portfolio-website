@@ -183,8 +183,8 @@ export default class MonitorScreen extends EventEmitter {
         };
 
         // Set iframe attributes
-        // PROD
-        iframe.src = 'https://henryheffernan-os.vercel.app/';
+        // PRODhttps://henryheffernan-os.vercel.app/
+        iframe.src = 'https://main--courageous-shortbread-a0cd5b.netlify.app/';
         /**
          * Use dev server is query params are present
          *
@@ -204,7 +204,7 @@ export default class MonitorScreen extends EventEmitter {
         iframe.className = 'jitter';
         iframe.id = 'computer-screen';
         iframe.frameBorder = '0';
-        iframe.title = 'HeffernanOS';
+        iframe.title = 'AzzamOS';
 
         // Add iframe to container
         container.appendChild(iframe);
